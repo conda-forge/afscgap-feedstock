@@ -1,5 +1,5 @@
 {% set name = "afscgap" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/afscgap-{{ version }}.tar.gz
-  sha256: 8cfb6140bbf567fef538d3410fcb38d375a77b4f22fb0e42b37cecb433a1e55b
+  sha256: df7332cdd42eaaf90a96506077f60c2bafac7a79160df3d153f68c69131f0f75
 
 build:
   noarch: python
